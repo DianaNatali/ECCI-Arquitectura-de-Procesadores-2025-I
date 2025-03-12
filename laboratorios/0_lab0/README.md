@@ -1,13 +1,85 @@
 # Lab 00: Instalación de herramientas 
 
-* ### [*FPGA Design Software* - Quartus (Para síntesis en FPGA Cyclone IV)](/labs/lab00/Quartus_installation_guide.md)
+En este laboratorio, nos enfocaremos en la instalación y configuración de las herramientas esenciales para el diseño, simulación y síntesis de sistemas digitales. Estas herramientas son fundamentales para el desarrollo de proyectos en hardware y software, especialmente en el ámbito de la electrónica digital y las FPGA (Field-Programmable Gate Arrays).
 
-    * #### [Tutorial de implementación en la FPGA Cyclone IV](/labs/lab00/proyectoQuartus.md)
+A continuación, se detallan las herramientas que instalaremos y configuraremos:
 
-* ### Herramientas de simulación:
 
-  #### 1. [Icarus Verilog](/labs/lab00/iverilog.md)
+## 1. *FPGA Design Software* - Quartus (Para síntesis en FPGA Cyclone IV)
 
-  #### 2. [Otras Herramientas *Open Source* de simulación, síntesis y configuración de sistemas digitales](https://github.com/johnnycubides/digital-electronic-1-101/blob/main/installTools/conda-and-tools.md)
+Quartus es un software de diseño de FPGA desarrollado por Intel (anteriormente Altera). Es ampliamente utilizado para la síntesis, implementación y verificación de diseños digitales en FPGAs de la familia Cyclone IV.
 
-  #### 3. [Digital - Simulador de circuitos](/labs/lab00/digital.md)
+* [Guía de instalación](/labs/lab00/Quartus_installation_guide.md)
+
+* [Tutorial de implementación en la FPGA Cyclone IV](/labs/lab00/proyectoQuartus.md)
+
+## 2. Herramientas de simulación *Open Source*:
+
+1. ### Icarus Verilog
+
+  Icarus Verilog es una herramienta de simulación de código abierto para el lenguaje de descripción de hardware Verilog. Es ideal para simular y verificar diseños digitales antes de su implementación en hardware.
+
+  * [Guía de instalación](/labs/lab00/iverilog.md)
+
+2. ### Digital - Simulador de circuitos
+
+   * [Digital - Simulador de circuitos](/labs/lab00/digital.md)
+
+
+## 3. Visual Studio Code (Editor de código)
+
+Visual Studio Code (VS Code) es un editor de código ligero pero potente, desarrollado por Microsoft. Es altamente personalizable y cuenta con una amplia gama de extensiones que lo hacen ideal para el desarrollo de software y hardware.
+
+* Descarga de Visual Studio Code: https://code.visualstudio.com/
+
+* Tutorial de instalación y configuración:
+
+    1. Descarga el instalador desde el enlace anterior.
+
+    2. Sigue las instrucciones del instalador para completar la instalación.
+
+    3. Una vez instalado, abre VS Code y explora las extensiones disponibles en el marketplace (por ejemplo, extensiones para Verilog, Git, etc.).
+
+
+## 4. Git y GitHub
+
+Git es un sistema de control de versiones ampliamente utilizado para gestionar proyectos de software y hardware. GitHub es una plataforma basada en Git que permite alojar repositorios y colaborar en proyectos.
+
+* Descarga de Git: https://git-scm.com/
+
+* Tutorial de instalación y uso básico de Git:
+
+    1. Descarga Git desde el enlace anterior.
+
+    2. Sigue las instrucciones del instalador.
+
+    3. Configura Git con tu nombre y correo electrónico:
+
+       En una terminar del sistema operativo ejecutar:
+
+       ```
+       git config --global user.name "Tu Nombre"
+       git config --global user.email tu@email.com
+       ```
+
+    4. Aprende los comandos básicos de Git:
+
+        * ```git init```: Inicializa un repositorio.
+
+        * ```git clone <url>```: Clona un repositorio remoto.
+
+        * ```git add <archivo>```: Añade archivos al área de preparación.
+
+        * ```git commit -m "mensaje"```: Guarda los cambios en el repositorio.
+
+        * ```git push```: Sube los cambios al repositorio remoto.
+
+        * ```git pull```: Actualiza el repositorio local con los cambios remotos.
+
+* Tutorial de GitHub:
+
+    1. Crea una cuenta en GitHub.
+
+    2. Aprende a crear un repositorio, hacer commits, crear ramas y colaborar en proyectos.
+
+    3. Explora la documentación oficial de GitHub: https://docs.github.com/.
