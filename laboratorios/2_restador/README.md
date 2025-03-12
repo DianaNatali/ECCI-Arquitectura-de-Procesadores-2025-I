@@ -1,6 +1,19 @@
-## Restador  de 4 bits
 
-El objetivo de este proyecto es implementar un restador de 4 bits basado en la técnica de complemento a 2, permitiendo realizar operaciones de resta $A−B$ utilizando el módulo del sumador de 4 bits, construido en el segundo laboratorio, y compuertas lógicas ```XOR```. 
+## Lab02: Restador de 4 bits y visualización en 7 segmentos
+
+
+Índice:
+
+1. [Objetivos de aprendizaje](#introducción)
+
+2. [Parte 1: Restador](#parte-1-sumador-de-1-bit)
+
+3. [Parte 2: Visualización en 7 segmentos](#sumador-de-4-bits)
+
+4. [Entregables](#sumador-de-4-bits)
+
+
+El objetivo de este laboratorio es implementar un restador de 4 bits basado en la técnica de complemento a 2, permitiendo realizar operaciones de resta $A−B$ utilizando el módulo del sumador de 4 bits, construido en el segundo laboratorio, y compuertas lógicas ```XOR```. 
 
 
 #### Operación complemento a 2.
