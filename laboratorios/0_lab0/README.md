@@ -1,6 +1,6 @@
 # Lab 00: Instalación de herramientas 
 
-En este laboratorio, nos enfocaremos en la instalación y configuración de las herramientas esenciales para el diseño, simulación y síntesis de sistemas digitales. Estas herramientas son fundamentales para el desarrollo de proyectos en hardware y software, especialmente en el ámbito de la electrónica digital y las FPGA (Field-Programmable Gate Arrays).
+En este laboratorio nos enfocaremos en la instalación y configuración de las herramientas esenciales para el diseño, simulación y síntesis de sistemas digitales. Estas herramientas son fundamentales para el desarrollo de proyectos en hardware y software, especialmente en el ámbito de la electrónica digital y las FPGA (Field-Programmable Gate Arrays).
 
 A continuación, se detallan las herramientas que instalaremos y configuraremos:
 
@@ -9,9 +9,9 @@ A continuación, se detallan las herramientas que instalaremos y configuraremos:
 
 Quartus es un software de diseño de FPGA desarrollado por Intel (anteriormente Altera). Es ampliamente utilizado para la síntesis, implementación y verificación de diseños digitales en FPGAs de la familia Cyclone IV.
 
-* [Guía de instalación](/labs/lab00/Quartus_installation_guide.md)
+* [Guía de instalación](/laboratorios/0_lab0/Quartus_installation_guide.md)
 
-* [Tutorial de implementación en la FPGA Cyclone IV](/labs/lab00/proyectoQuartus.md)
+* [Tutorial de implementación en la FPGA Cyclone IV](/laboratorios/0_lab0/proyectoQuartus.md)
 
 ## 2. Herramientas de simulación *Open Source*:
 
@@ -19,11 +19,11 @@ Quartus es un software de diseño de FPGA desarrollado por Intel (anteriormente 
 
   Icarus Verilog es una herramienta de simulación de código abierto para el lenguaje de descripción de hardware Verilog. Es ideal para simular y verificar diseños digitales antes de su implementación en hardware.
 
-  * [Guía de instalación](/labs/lab00/iverilog.md)
+  * [Guía de instalación](/laboratorios/0_lab0/iverilog.md)
 
 2. ### Digital - Simulador de circuitos
 
-   * [Digital - Simulador de circuitos](/labs/lab00/digital.md)
+   * [Digital - Simulador de circuitos](/laboratorios/0_lab0/digital.md)
 
 
 ## 3. Visual Studio Code (Editor de código)

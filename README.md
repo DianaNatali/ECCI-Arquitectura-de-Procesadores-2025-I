@@ -106,7 +106,7 @@ Este laboratorio está diseñado para brindar los conocimientos y habilidades ne
 Esta metodología está diseñada para garantizar una experiencia de aprendizaje integral, fomentando el desarrollo de competencias técnicas y el trabajo colaborativo en el área de la electrónica digital.
 
 
-
+<!-- 
 ### Laboratorios
 
 1. [Sumador de 1 bit](./laboratorios/1_sum1b/README.md).
@@ -119,7 +119,7 @@ Esta metodología está diseñada para garantizar una experiencia de aprendizaje
 
 5. [BCD a 7 segmentos](./laboratorios/5_BCD2Sseg/README.md).
 
-6. [ALU](./laboratorios/6_ALU/README.md).
+6. [ALU](./laboratorios/6_ALU/README.md). -->
 
 
 
