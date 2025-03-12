@@ -142,7 +142,7 @@ Esta metodología está diseñada para garantizar una experiencia de aprendizaje
   <tr>
     <td>3-5</td>
     <td>Sumador de 1 y 4 bits</td>
-    <td><a href="/laboratorios/1_sum1b/README.md">lab01</a></td>
+    <td><a href="/laboratorios/1_sum1b_4b/README.md">lab01</a></td>
     <td><a href="">Link </a></td>
     <td>12 Mar/2025</td>
   </tr>
