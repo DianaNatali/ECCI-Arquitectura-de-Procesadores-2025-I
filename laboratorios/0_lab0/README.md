@@ -7,7 +7,7 @@ A continuación, se detallan las herramientas que instalaremos y configuraremos:
 
 ## 1. *FPGA Design Software* - Quartus (Para síntesis en FPGA Cyclone IV)
 
-Quartus es un software de diseño de FPGA desarrollado por Intel (anteriormente Altera). Es ampliamente utilizado para la síntesis, implementación y verificación de diseños digitales en FPGAs de la familia Cyclone IV.
+Quartus es un software de diseño digital e implementación FPGA desarrollado por Intel (anteriormente Altera). Es ampliamente utilizado para la síntesis, implementación y verificación de diseños digitales en FPGAs de la familia Cyclone.
 
 * [Guía de instalación](/laboratorios/0_lab0/Quartus_installation_guide.md)
 
@@ -17,7 +17,7 @@ Quartus es un software de diseño de FPGA desarrollado por Intel (anteriormente 
 
 1. ### Icarus Verilog
 
-  Icarus Verilog es una herramienta de simulación de código abierto para el lenguaje de descripción de hardware Verilog. Es ideal para simular y verificar diseños digitales antes de su implementación en hardware.
+  Icarus Verilog es una herramienta de simulación de código abierto para HDL (*Hardware Description Language*). Es ideal para simular y verificar diseños digitales antes de su implementación en hardware.
 
   * [Guía de instalación](/laboratorios/0_lab0/iverilog.md)
 

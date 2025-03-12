@@ -1,5 +1,24 @@
 # Tutorial para instalar y configurar FPGA Design Software - Quartus.
 
+
+## En Windows
+
+
+### Descargar e instalar Intel Quartus Prime:
+
+* Descargue los archivos de instalación de Quartus Prime lite del siguiente [link](https://www.intel.com/content/www/us/en/software-kit/825277/intel-quartus-prime-lite-edition-design-software-version-23-1-1-for-linux.html):
+
+    * Seleccione la última versión  y  seleccione el sistema operativo, en este caso Windows!
+
+
+* Ejecute el instalador ```exe``` que se descargó en el ítem anterior. Se abrirá el siguiente cuadro de dialogo:
+
+    ![install_quartus](/laboratorios/figs/lab0/install_quartus_windows.png)
+
+
+
+## En Linux
+
 Índice:
 
 * [Descargar e instalar Intel Quartus Prime](#descargar-e-instalar-intel-quartus-prime).
@@ -12,14 +31,14 @@
 *  *  *  *  *
 
 
-## Descargar e instalar Intel Quartus Prime:
+### Descargar e instalar Intel Quartus Prime:
 
 * Descargue los archivos de instalación de Quartus Prime lite del siguiente [link](https://www.intel.com/content/www/us/en/software-kit/825277/intel-quartus-prime-lite-edition-design-software-version-23-1-1-for-linux.html):
 
     * Seleccione la última versión  y  seleccione el sistema operativo, en este caso Linux!
     *  Descargue el archivo ```.run```.
 
-        ![download_quartus](/pics/quartus_1.png)
+        ![download_quartus](/laboratorios/figs/lab0/quartus_1.png)
 
 
 * Instalación:
@@ -37,7 +56,11 @@
         ```
         Reemplace ```*```  con el nombre del archivo ```.run```.
 
-### Configuración de la variable de entorno
+        Se abrirá el siguiente cuadro de dialogo:
+
+        ![download_quartus](/laboratorios/figs/lab0/install_quartus.png)
+
+#### Configuración de la variable de entorno
 
 Al agregar la ruta de instalación de Quartus a la variable de entorno ```PATH```, se define en dónde el sistema operativo puede encontrar el ejecutable de Quartus. Esto permite ejecutar el comando ```quartus``` desde cualquier ubicación en la terminal, simplificando el acceso a la herramienta. Esto se puede hacer de la siguiente manera:
 
@@ -74,15 +97,15 @@ Al agregar la ruta de instalación de Quartus a la variable de entorno ```PATH``
 Ahora podrá ejecutar la IDE Quartus utilizando el comando ```quartus``` en la terminal.
 
 
-## Descargar e instalar la herramienta de simulación Questa
+### Descargar e instalar la herramienta de simulación Questa
 
-### Descargar instalador
+#### Descargar instalador
 
 * Descargar los archivos Questa*-Intel® FPGA Edition (includes Starter Edition) del siguiente [link](https://www.intel.com/content/www/us/en/software-kit/776289/questa-intel-fpgas-pro-edition-software-version-23-1.html). Se debe descarga tanto el archivo con extensión ```.run``` como la parte II que tiene extensión ```.qdz``` en el mismo directorio.
 * Tenga en cuenta que la descarga de estos archivos tomará tiempo.
 * Para el presente tutorial se descargó la versión 23.1.
 
-###  Instalación
+####  Instalación
 
 * En la terminal de linux:
 
@@ -93,7 +116,7 @@ Ahora podrá ejecutar la IDE Quartus utilizando el comando ```quartus``` en la t
 
 * Se abrirá el instalador:
 
-    ![questa](/pics/questa.jpeg) 
+    ![questa](/laboratorios/figs/lab0/questa.jpeg) 
 
 
     - Dar click en siguiente y seleccionar la opción ```Questa - Intel FPGA Starter Edition```.
@@ -108,7 +131,7 @@ Ahora podrá ejecutar la IDE Quartus utilizando el comando ```quartus``` en la t
 
 
 
-### Descargar y configurar la licencia
+#### Descargar y configurar la licencia
 
 Es necesario descargar la licencia de Questa para lo cual se debe:
 
@@ -124,18 +147,18 @@ Center (SSLC)](https://www.intel.com/content/www/us/en/secure/forms/fpga-sslc-re
 
 * Una vez realizados los anteriores pasos, se abrirá el siguiente portal:
 
-    ![intel](/pics/intel.jpeg) 
+    ![intel](/laboratorios/figs/lab0/intel.jpeg) 
 
     - Ingresar a la opción ```Sing up for Evaluation or No-Cost License```.
 
 
     - Seleccionar la opción ```Questa*-Intel® FPGA Starter``` y dar click en siguiente.
 
-    ![intel2](/pics/intel2.jpeg) 
+    ![intel2](/laboratorios/figs/lab0/intel2.jpeg) 
 
     - Se abrirá una interfaz para generar la licencia:
 
-    ![intel3](/pics/intel3.jpeg) 
+    ![intel3](/laboratorios/figs/lab0/intel3.jpeg) 
 
     - Dar click en ```+New Computer```.
 
@@ -175,14 +198,14 @@ Center (SSLC)](https://www.intel.com/content/www/us/en/secure/forms/fpga-sslc-re
     export LM_LICENSE_FILE=path_del_archivo/nombre_archivo.dat
     ```
 
-## Configuración del programador (USB-blaster) de la FPGA:
+### Configuración del programador (USB-blaster) de la FPGA:
 
 
-### udev - Gestor Dinámico de Dispositivos Linux: 
+#### udev - Gestor Dinámico de Dispositivos Linux: 
 
 ```udev``` es un sistema de espacio de usuario (se refiere a un espacio de aplicación, parcialmente en Unix o en sistemas operativos tipo Unix, el cual es externo al núcleo) que permite al administrador del sistema operativo registrar controladores de espacio de usuario para eventos. Estos eventos son generados principalmente por el kernel de Linux en respuesta a eventos físicos relacionados con dispositivos periféricos, en este caso el USB-blaster de la FPGA, permitiendo identificar dispositivos de forma dinámica en función de sus propiedades, como la ID del proveedor y la ID del dispositivo.
 
-### Crear una regla ```udev``` para el USB-blaster de la FPGA:
+#### Crear una regla ```udev``` para el USB-blaster de la FPGA:
 
 * Existe una carpeta de reglas ```udev``` en el directorio ```root```, para acceder a este se debe:
 

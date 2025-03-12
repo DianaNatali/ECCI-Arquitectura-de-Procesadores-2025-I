@@ -1,7 +1,25 @@
 # Instalación de Icarus-Verilog
 
-Icarus-Verilog es un compilador *open source* para Verilog HDL.
 
+## En Windows:
+
+1. Descargar el instalador de Icarus Verilog en https://bleyer.org/icarus/: 
+
+2. Ejecute el instalador ```exe``` que se descargó en el ítem anterior. Se abrirá el instalador y se debe tener en cuenta lo siguiente:
+
+  * En ```Select Components```seleccionar lo siguiente:
+
+    ![download_quartus](/laboratorios/figs/lab0/iverilog2.PNG)
+
+  * En ```Select Additional Tasks```seleccionar lo siguiente cerciorarse de que la casilla ```Add executable folder(s) to the user PATH```:
+
+    ![download_quartus](/laboratorios/figs/lab0/iverilog1.PNG)
+
+
+
+
+
+## En linux:
 Actualice la lista de paquetes de Linux, luego instale Icarus Verilog como se muestra:
 
 ```
