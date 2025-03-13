@@ -24,60 +24,42 @@ Quartus es un software de diseño digital e implementación FPGA desarrollado po
    * [Digital - Simulador de circuitos](/laboratorios/0_lab0/digital.md)
 
 
-## 3. Visual Studio Code (Editor de código)
+## 2. Visual Studio Code 
 
-Visual Studio Code (VS Code) es un editor de código ligero pero potente, desarrollado por Microsoft. Es altamente personalizable y cuenta con una amplia gama de extensiones que lo hacen ideal para el desarrollo de software y hardware.
+```Visual Studio Code``` (```VS Code```) es un editor de código ligero pero potente, desarrollado por Microsoft. Es altamente personalizable y cuenta con una amplia gama de extensiones que lo hacen ideal para el desarrollo de software y hardware.
 
-* Descarga de Visual Studio Code: https://code.visualstudio.com/
+1. Descargar Visual Studio Code: [VS Code download](https://code.visualstudio.com/).
 
-* Tutorial de instalación y configuración:
+2. Seguir las instrucciones del instalador para completar la instalación.
 
-    1. Descarga el instalador desde el enlace anterior.
-
-    2. Sigue las instrucciones del instalador para completar la instalación.
-
-    3. Una vez instalado, abre VS Code y explora las extensiones disponibles en el marketplace (por ejemplo, extensiones para Verilog, Git, etc.).
+3. Una vez instalado, abrir ```VS Code``` y explora las extensiones disponibles en el marketplace.
 
 
-## 4. Git y GitHub
+
+## 3. ```Git``` y GitHub
 
 Git es un sistema de control de versiones ampliamente utilizado para gestionar proyectos de software y hardware. GitHub es una plataforma basada en Git que permite alojar repositorios y colaborar en proyectos.
 
-* Descarga de Git: https://git-scm.com/
+1. Crear cuenta en [GitHub](https://github.com/).
 
-* Tutorial de instalación y uso básico de Git:
+2. Descargar Git en el computador a través del sitio oficial: [Git download](https://git-scm.com/).
 
-    1. Descarga Git desde el enlace anterior.
+3. Seguir las instrucciones del instalador.
 
-    2. Sigue las instrucciones del instalador.
+4. Configura ```Git``` de acuerdo al nombre de usuario y correo electrónico usados al crear la cuenta en Github:
 
-    3. Configura Git con tu nombre y correo electrónico:
+    En una terminal del sistema operativo ejecutar:
 
-       En una terminar del sistema operativo ejecutar:
+    ```
+    git config --global user.name "Tu Nombre"
+    git config --global user.email tu@email.com
+    ```
 
-       ```
-       git config --global user.name "Tu Nombre"
-       git config --global user.email tu@email.com
-       ```
+5. Aprender los comandos básicos de Git:
 
-    4. Aprende los comandos básicos de Git:
-
-        * ```git init```: Inicializa un repositorio.
-
-        * ```git clone <url>```: Clona un repositorio remoto.
-
-        * ```git add <archivo>```: Añade archivos al área de preparación.
-
-        * ```git commit -m "mensaje"```: Guarda los cambios en el repositorio.
-
-        * ```git push```: Sube los cambios al repositorio remoto.
-
-        * ```git pull```: Actualiza el repositorio local con los cambios remotos.
-
-* Tutorial de GitHub:
-
-    1. Crea una cuenta en GitHub.
-
-    2. Aprende a crear un repositorio, hacer commits, crear ramas y colaborar en proyectos.
-
-    3. Explora la documentación oficial de GitHub: https://docs.github.com/.
+    * ```git init```: Inicializa un repositorio.
+    * ```git clone <url>```: Clona un repositorio remoto.
+    * ```git add <archivo>```: Añade archivos al área de preparación.
+    * ```git commit -m "mensaje"```: Guarda los cambios en el repositorio.
+    * ```git push```: Sube los cambios al repositorio remoto.
+    * ```git pull```: Actualiza el repositorio local con los cambios remotos.
