@@ -1,8 +1,6 @@
 # Lab 00: Instalación de herramientas 
 
-En este laboratorio nos enfocaremos en la instalación y configuración de las herramientas esenciales para el diseño, simulación y síntesis de sistemas digitales. Estas herramientas son fundamentales para el desarrollo de proyectos en hardware y software, especialmente en el ámbito de la electrónica digital y las FPGA (Field-Programmable Gate Arrays).
-
-A continuación, se detallan las herramientas que instalaremos y configuraremos:
+En este laboratorio nos enfocaremos en la instalación y configuración de las herramientas esenciales para el desarrollo de este curso
 
 
 ## 1. *FPGA Design Software* - Quartus (Para síntesis en FPGA Cyclone IV)
