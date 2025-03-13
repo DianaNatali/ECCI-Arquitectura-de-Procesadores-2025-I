@@ -1,6 +1,6 @@
 # Lab 00: Instalación de herramientas 
 
-En este laboratorio nos enfocaremos en la instalación y configuración de las herramientas esenciales para el desarrollo de este curso
+En este laboratorio nos enfocaremos en la instalación y configuración de las herramientas esenciales para el desarrollo de este curso.
 
 
 ## 1. *FPGA Design Software* - Quartus (Para síntesis en FPGA Cyclone IV)
