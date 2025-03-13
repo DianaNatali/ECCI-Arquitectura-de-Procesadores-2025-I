@@ -50,9 +50,9 @@ Git es un sistema de control de versiones ampliamente utilizado para gestionar p
 
     En una terminal del sistema operativo ejecutar:
 
-    ```
-    git config --global user.name "Tu Nombre"
-    git config --global user.email tu@email.com
+   ```
+    git config --global user.name "cuenta de usuario"
+    git config --global user.email correo@email.com
     ```
 
 5. Aprender los comandos básicos de Git:
