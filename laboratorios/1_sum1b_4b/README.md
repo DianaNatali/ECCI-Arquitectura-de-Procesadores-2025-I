@@ -11,7 +11,7 @@
     2.2 [Parte 2: Sumador de 4 bit](#22-parte-2-sumador-de-4-bits)
 
 
-4. [Entregables](#3-entregables)
+3. [Entregables](#3-entregables)
 
 
 

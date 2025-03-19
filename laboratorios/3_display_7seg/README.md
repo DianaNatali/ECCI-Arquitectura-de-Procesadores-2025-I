@@ -1,5 +1,14 @@
 # Lab03: Decodificador BCD a 7 segmentos
 
+1. [Objetivos de aprendizaje](#1-objetivos-de-aprendizaje)
+
+2. [Fundamento teórico](#2-fundamento-teórico)
+
+3. [Procedimiento](#3-procedimiento)
+
+4. [Entregables](#4-entregables)
+
+
 ## 1. Objetivos de aprendizaje
 
 1. Diseñar e implementar un controlador para display 7 segmentos teniendo en cuenta el tipo de display (ánodo/cátodo común), la tabla de verdad completa para representación hexadecimal y el respectivo mapeo de pines .
@@ -126,9 +135,9 @@ Procedimiento detallado:
 
 3. Asignar signo negativo:
    $$ \text{Resultado decimal } =−\text{Magnitud positiva}$$
-   
 
-## 3. Entregables
+
+## 4. Entregables
 
 1. Realice la descripción de hardware de las partes 1 y 2 anteriormente mencionadas.
 
