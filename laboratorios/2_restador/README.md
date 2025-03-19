@@ -1,41 +1,110 @@
 
-## Lab02: Restador de 4 bits y visualización en 7 segmentos
+## Lab02: Sumador/restador de 4 bits 
 
 
-Índice:
+Tabla de Contenidos
 
-1. [Objetivos de aprendizaje](#introducción)
+1. [Objetivos de aprendizaje](#1-objetivos-de-aprendizaje)
 
-2. [Parte 1: Restador](#parte-1-sumador-de-1-bit)
+2. [Fundamento teórico](#2-fundamento-teórico)
 
-3. [Parte 2: Visualización en 7 segmentos](#sumador-de-4-bits)
+3. [Entregables](#3-entregables)
 
-4. [Entregables](#sumador-de-4-bits)
+## 1. Objetivos de aprendizaje
 
+* Implementar un circuito restador usando complemento a 2.
 
-El objetivo de este laboratorio es implementar un restador de 4 bits basado en la técnica de complemento a 2, permitiendo realizar operaciones de resta $A−B$ utilizando el módulo del sumador de 4 bits, construido en el segundo laboratorio, y compuertas lógicas ```XOR```. 
+* Reutilizar un sumador de 4 bits para operaciones de resta.
 
-
-#### Operación complemento a 2.
-
-El complemento a 2 permite representar tanto números positivos como negativos en un sistema binario. Un número negativo, en complemento a 2, es el complemento binario de su valor absoluto menos uno. Esto simplifica las operaciones de suma y resta, pues los circuitos sumadores pueden usarse sin modificaciones significativas para manejar números negativos. Los módulos de resta  utilizan sumadores y simplemente convierten uno de los operandos a su complemento a 2 para realizar la operación de resta como una suma. El complemento a 2 se cálcula como sigue:   
-
-##### Paso 1: Inversión de Bits
-
-Invertir todos los bits del número. Por ejemplo, si el número binario es $1101_2$​, su inversión de bits será $0010_2$​.
+* Aprender a verificar y validar el funcionamiento del diseño en un entorno de simulación, identificando y corrigiendo errores antes de la implementación física en *hardware*.
 
 
-##### Paso 2: Paso 1 + 1:
+## 2. Fundamento teórico
 
-Se suma 1 al número binario invertido. Continuando con el ejemplo anterior, $0010_2+1 = 0011_2$​.
+#### 2.1 Operación complemento a 2.
+
+En sistemas digitales, las operaciones aritméticas con números negativos requieren una representación eficiente. El complemento a 2 resuelve este problema al permitir:
+
+1. Codificar números positivos y negativos en binario.
+
+2. Convertir restas en sumas, simplificando el diseño de circuitos.
+
+Al aplicar complemento a 2 a un número $B$, la resta $A−B$ se transforma en una suma:
+
+  $$A−B=A+(∼B+1)$$
 
 
-El resultado final, $0011_2$​, es el complemento a 2 de $1101_2$​, que representa el número $−3$ en décimal.
+donde $∼B$ es la inversión bit a bit (complemento a 1) y $+1$ completa la conversión.
+
+En este laboratorio, aprovecharemos esta propiedad para construir un **sumador/restador** de 4 bits reutilizando un sumador existente, añadiendo solo compuertas ```XOR ```y una señal de control (```Sel```). El bit de acarreo final (```Co```) indicará automáticamente si el resultado es positivo o negativo.
 
 
-### Funcionamiento del restador
+El complemento a 2 se cálcula como sigue:   
 
-El circuito presentado a continuación tiene la capacidad de realizar restas utilizando una técnica de complemento a 2. 
+* ##### Paso 1: Inversión de Bits
+
+    Invertir todos los bits del número. Por ejemplo, si el número binario es $1101_2$​, su inversión de bits será $0010_2$​.
+
+
+* ##### Paso 2: Paso 1 + 1:
+
+    Se suma 1 al número binario invertido. Continuando con el ejemplo anterior, $0010_2+1 = 0011_2$​.
+
+
+    El resultado final, $0011_2$​, es el complemento a 2 de $1101_2$​, que representa el número $−3$ en décimal.
+
+
+##### Ejemplo:
+
+Ejemplo: Se requiere calcular $7−5$.
+
+1. Se debe convertir el número $5$ en $-5$ usando estos pasos:
+
+    * **Paso 1**: Invertir los bits de $5$ (complemento a 1):
+
+        $$0101→1010$$
+
+    * **Paso 2**: Sumar $1$ al resultado (complemento a 2):
+
+        $$1010+1=1011$$
+        
+        Esto representa un $-5$.
+
+    * Ahora se debe sumar en lugar de restar:
+    
+
+    $$\begin{aligned}
+    &0111_2 (7)\\
+    +&1011_2 (−5)\\
+    --&-----\\
+    1&0010_2 
+    \end{aligned}$$
+    
+    * Sin tener en cuenta el bit de acarreo, es decir, el ```MSB```: $$0010_2=2$$.
+
+ #### 2.2. ¿Cómo se ve el completo a 2 a nivel de circuito?
+
+1. Compuertas ```XOR```:
+
+    * Cuando ```Sel = 1```, actúan como un interruptor que invierte los bits de $B$ (Paso 1).
+
+    * Si ```Sel = 0```, dejan pasar $B$ sin cambios (para suma).
+
+2. El bit ```Sel``` hace dos cosas:
+
+    * Controla las ```XOR``` (Paso 1).
+
+    * Se conecta al acarreo inicial (```Cin```) para sumar el $1$ del Paso 2.
+
+3. El resultado final:
+
+    * Si el acarreo final (```Co```) es $1$: El resultado es positivo (como el 2 del ejemplo).
+
+    * Si es $0$: El resultado es negativo (está en  complemento a $2$).
+
+        Ejemplo: $3−7=1100$ → $-4$ en complemento a $2$.
+
+A continuación se muestra el circuito del complemento a $2$:
 
 <p align="center">
  <img src="../figs/Restador.png" alt="alt text" width=600 >
@@ -51,9 +120,12 @@ Para realizar la operación de resta, el circuito presenta el siguiente comporta
 
 Cuando la entrada ```Sel = 0``` la salida de las compuertas ```XOR``` es simplemente la misma entrada ```B```, por lo tanto se ejecuta la operación de suma $A+B$.
 
-### Representación de números negativos
+## 3. Entregables
 
-Si el resultado de la resta es menor que 0, es necesario realizar complemento a 2 a este resultado para poderlo representar adecuadamente. 
+1. Realice la descripción de hardware del sumador/restador.
 
-Cuando ```Co``` es 0, esto representa que el resultado de la operación es negativo. 
+2. Explique el ítem anterior en su respectivo archivo ```README.md```.
 
+3. Realice la respectiva simulaciones y muestre evidencias en su archivo ```README.md```.
+
+4. Implemente la descripción HDL en la tarjeta de desarrollo, empleando la ```IDE Quartus``` y muestre en el laboratorio el funcionamiento, empleando los periféricos que requiera.

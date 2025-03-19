@@ -7,3 +7,5 @@ build/
 # Ignorar archivos .jou y backup.jou
 *.jou
 backup.jou
+
+src/

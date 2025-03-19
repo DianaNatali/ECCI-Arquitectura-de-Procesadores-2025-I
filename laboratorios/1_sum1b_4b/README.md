@@ -2,17 +2,20 @@
 
 Índice:
 
-1. [Objetivos de aprendizaje](#introducción)
+1. [Objetivos de aprendizaje](#1-objetivos-de-aprendizaje)
 
-2. [Parte 1: Sumador de 1 bit](#parte-1-sumador-de-1-bit)
+2. [Fundamento teórico](#2-fundamento-teórico)
 
-3. [Parte 2: Sumador de 4 bits](#sumador-de-4-bits)
+    2.1 [Parte 1: Sumador de 1 bit](#21-parte-1-sumador-de-1-bit)
 
-4. [Entregables](#sumador-de-4-bits)
+    2.2 [Parte 2: Sumador de 4 bit](#22-parte-2-sumador-de-4-bits)
+
+
+4. [Entregables](#3-entregables)
 
 
 
-## Objetivos de aprendizaje
+## 1. Objetivos de aprendizaje
 
 - Diseñar y construir sistemas digitales basados en lógica combinacional, enfocándose en la implementación de sumadores.
 - Diseñar, construir e instanciar módulos utilizando lenguajes de descripción de *hardware* (HDL)
@@ -20,7 +23,9 @@
 - Aprender a verificar y validar el funcionamiento del diseño en un entorno de simulación, identificando y corrigiendo errores antes de la implementación física en *hardware*.
 - Explorar la implementación de diseños digitales en tarjeta de desearrollo basadas en FPGAs.
 
-## Parte 1: Sumador de 1 bit
+## 2. Fundamento teórico
+
+### 2.1 Parte 1: Sumador de 1 bit
 
 En diseño digital, un sumador de 1 bit es un circuito combinacional que realiza la suma de dos bits junto con un bit de acarreo de entrada. Es uno de los bloques fundamentales en la construcción de sumadores de mayor tamaño, que son esenciales en operaciones aritméticas dentro de procesadores y sistemas digitales. También se conoce como sumador completo.  A continuación se muestra su respectivo bloque funcional:
 
@@ -66,7 +71,7 @@ A partir de las expresiones obtenidas se puede construir el siguiente circuito:
  Figura 2
 </p>
 
-### Implementación en HDL
+#### Implementación en HDL
 
 En la descripción de *hardware*, los sumadores de 1 bit pueden implementarse utilizando diferentes enfoques, según el nivel de abstracción deseado.
 
@@ -108,7 +113,7 @@ En la descripción de *hardware*, los sumadores de 1 bit pueden implementarse ut
           En muchos HDL (como Verilog), las primitivas están predefinidas en la biblioteca y pueden ser más eficientes para la síntesis, ya que el sintetizador ya sabe cómo mapearlas a los recursos del hardware físico.
 
 
-## Parte 2: Sumador de 4 bits
+### 2.2 Parte 2: Sumador de 4 bits
 
 
 Para crear un sumador de 4 bits, se utilizan cuatro sumadores de 1 bit conectados en serie. Así, el acarreo de salida de un sumador de 1 bit se convierte en el acarreo de entrada del siguiente sumador. Cada bit de los dos números que se están sumando se procesa de manera paralela. 
@@ -125,7 +130,7 @@ Un sumador de 4 bits suma dos números de 4 bits (```[3:0] A``` y ```[3:0] B```)
 
 La implementación del sumador de 4 bits utilizando instancias del sumador de 1 bit es un ejemplo de diseño estructural en HDL, en donde se utiliza el sumador de 1 bit para construir un sumador de 4 bits de manera modular.
 
-### Funcionamiento
+#### Funcionamiento
 
 * Cada instancia del sumador de 1 bit toma 1 bits de las entradas ```A``` y ```B```, y un acarreo de entrada Ci. Calcula la suma de estos bits y produce una suma de un bit ```So``` y un acarreo de salida ```Co```.
 
@@ -133,7 +138,7 @@ La implementación del sumador de 4 bits utilizando instancias del sumador de 1 
 
 * El sumador de 4 bits produce una salida final ```So``` de 4 bits y un acarreo de salida final ```Co```.
 
-### Implementación en HDL
+#### Implementación en HDL
 
 1. **Concepto de instancia**
 
@@ -157,7 +162,7 @@ La implementación del sumador de 4 bits utilizando instancias del sumador de 1 
       * ```signal_0``` ... ```signal_n```: Corresponde al nombre de las señales que tenemos en el módulo en el cual nos encontramos trabajando y que nos servirán para interactuar con otros del diseño dentro de dicho módulo.
 
 
-## Entregables
+## 3. Entregables
 
 1. Realice la descripción de hardware de las partes 1 y 2 anteriormente mencionadas.
 
