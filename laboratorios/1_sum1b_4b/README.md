@@ -1,6 +1,6 @@
 # Lab 01: Sumador de 1 bit y sumador de 4 bits
 
-Índice:
+Contenido:
 
 1. [Objetivos de aprendizaje](#1-objetivos-de-aprendizaje)
 
