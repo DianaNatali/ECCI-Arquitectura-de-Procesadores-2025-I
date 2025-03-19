@@ -1,5 +1,7 @@
 # Lab03: Decodificador BCD a 7 segmentos
 
+Contenido:
+
 1. [Objetivos de aprendizaje](#1-objetivos-de-aprendizaje)
 
 2. [Fundamento teórico](#2-fundamento-teórico)
