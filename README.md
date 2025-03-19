@@ -148,21 +148,21 @@ Esta metodología está diseñada para garantizar una experiencia de aprendizaje
   </tr>
   <tr>
     <td>6-7</td>
-    <td>Restador y visualización en 7 segmentos </td>
-    <td><a href="/labs/lab03/README.md">lab02</a></td>
+    <td>Sumador/restador de 4 bits  </td>
+    <td><a href="/laboratorios/2_restador/README.md">lab02</a></td>
     <td><a href="">Link </a></td>
     <td>19 Mar/2025</td>
   </tr>
   <tr>
     <td>9-10</td>
-    <td>Multiplicador</td>
-    <td><a href="/labs/lab04/README.md">lab03</a></td>
+    <td>Decodificador BCD a 7 segmentos</td>
+    <td><a href="/laboratorios/3_display_7seg/README.md">lab03</a></td>
     <td><a href="">Link </a></td>
     <td>26 Mar/2025</td>
   </tr>
   <tr>
     <td>11-12</td>
-    <td>ALU</td>
+    <td>Multiplicador</td>
     <td><a href="">lab04</a></td>
     <td><a href="">Link </a></td>
     <td>2 Abril/2025</td>
