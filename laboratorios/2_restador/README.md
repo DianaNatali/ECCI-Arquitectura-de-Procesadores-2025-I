@@ -2,7 +2,7 @@
 ## Lab02: Sumador/restador de 4 bits 
 
 
-Tabla de Contenidos
+Contenido:
 
 1. [Objetivos de aprendizaje](#1-objetivos-de-aprendizaje)
 
