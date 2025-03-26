@@ -108,7 +108,7 @@ Pasos a seguir:
 
 5. Implementación: en la tarjeta correspondiente implemente y valide el funcionamiento.
 
-### Segunda parte: Visualización dinámica 3 Displays de 7 Segmentos
+### Segunda parte: Visualización dinámica en 3 displays de 7 segmentos
 
 Realizar la integración  del módulo implementado en el ítem anterior con el sumador/restador del [lab02](/laboratorios/2_restador/README.md), siguiento los mismo pasos descritos anteriormente. A continuación se muestra el bloque funcional que deben implementar:
 
@@ -118,7 +118,7 @@ Realizar la integración  del módulo implementado en el ítem anterior con el s
     </p>
 
 
-#### Representación Decimal de Números Negativos
+#### Representación decimal de números negativos
 
 Cuando el resultado de una resta es negativo (```Co = 0```), el valor de salida (```S```) está expresado en complemento a $2$. Para convertirlo a su equivalente decimal con signo:
 
