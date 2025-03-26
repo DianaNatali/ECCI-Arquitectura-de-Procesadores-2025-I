@@ -144,28 +144,70 @@ Esta metodología está diseñada para garantizar una experiencia de aprendizaje
     <td>Sumador de 1 y 4 bits</td>
     <td><a href="/laboratorios/1_sum1b_4b/README.md">lab01</a></td>
     <td><a href="https://classroom.github.com/a/XkiAIK8j">Link </a></td>
-    <td>12 Mar/2025</td>
+    <td>29 Mar/2025</td>
   </tr>
   <tr>
     <td>6-7</td>
     <td>Sumador/restador de 4 bits  </td>
     <td><a href="/laboratorios/2_restador/README.md">lab02</a></td>
     <td><a href="">Link </a></td>
-    <td>19 Mar/2025</td>
+    <td>05 Abr/2025</td>
   </tr>
   <tr>
-    <td>9-10</td>
+    <td>8-9</td>
     <td>Decodificador BCD a 7 segmentos</td>
     <td><a href="/laboratorios/3_display_7seg/README.md">lab03</a></td>
     <td><a href="">Link </a></td>
-    <td>26 Mar/2025</td>
+    <td>05 Abr/2025</td>
   </tr>
   <tr>
-    <td>11-12</td>
-    <td>Multiplicador</td>
+    <td>9</td>
+    <td>Multiplicador (ASM)</td>
     <td><a href="">lab04</a></td>
     <td><a href="">Link </a></td>
-    <td>2 Abril/2025</td>
+    <td>12 Abril/2025</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>ALU</td>
+    <td><a href="">lab05</a></td>
+    <td><a href="">Link </a></td>
+    <td>19 Abril/2025</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>Banco de registros</td>
+    <td><a href="">lab06</a></td>
+    <td><a href="">Link </a></td>
+    <td>26 Abril/2025</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>Unidad de control</td>
+    <td><a href="">lab07</a></td>
+    <td><a href="">Link </a></td>
+    <td>03 Mayo/2025</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>Memoria de instrucciones y datos </td>
+    <td><a href="">lab08</a></td>
+    <td><a href="">Link </a></td>
+    <td>10 Mayo/2025</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>Pipeline básico y Entrada/Salida (UART o GPIOs) </td>
+    <td><a href="">lab09</a></td>
+    <td><a href="">Link </a></td>
+    <td>17 Mayo/2025</td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>Implementación completa MIPS</td>
+    <td><a href="">lab10</a></td>
+    <td><a href="">Link </a></td>
+    <td>24 Mayo/2025</td>
   </tr>
 
 
