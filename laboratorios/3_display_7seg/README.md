@@ -141,9 +141,9 @@ Procedimiento detallado:
 
 ## 4. Entregables
 
-1. Realice la descripción de hardware de las partes 1 y 2 anteriormente mencionadas.
+1. Descripción de hardware del sumador/restador.
 
-2. Explique el ítem anterior en su respectivo archivo ```README.md```.
+2. Documentación del ítem anterior en su respectivo archivo ```README.md```.
 
 3. Realice la respectiva simulaciones y muestre evidencias en su archivo ```README.md```.
 
