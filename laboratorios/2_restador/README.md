@@ -73,12 +73,10 @@ Ejemplo: Se requiere calcular $7−5$.
     * Ahora se debe sumar en lugar de restar:
     
 
-    $$\begin{aligned}
-    &0111_2 (7)\\
-    +&1011_2 (−5)\\
-    --&-----\\
-    1&0010_2 
-    \end{aligned}$$
+    $$0111_2 (7)$$
+    $$+1011_2 (−5)$$
+    $$-------$$
+    $$10010_2 \text{ $$\ $$ }$$ 
     
     * Sin tener en cuenta el bit de acarreo, es decir, el ```MSB```: $$0010_2=2$$.
 
