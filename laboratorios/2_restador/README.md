@@ -70,7 +70,7 @@ Ejemplo: Se requiere calcular $7−5$.
 
     * Ahora se debe sumar en lugar de restar:
 
-        $$ 0111_2 (7)$$
+         $$0111_2 (7)$$
 
         $$+1011_2 (−5)$$
 
