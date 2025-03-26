@@ -66,9 +66,7 @@ Ejemplo: Se requiere calcular $7−5$.
 
     * **Paso 2**: Sumar $1$ al resultado (complemento a 2):
 
-        $$1010+1=1011$$
-        
-        Esto representa un $-5$.
+        $$1010+1=1011 \rightarrow$$ Esto representa un $-5$.
 
     * Ahora se debe sumar en lugar de restar:
 
