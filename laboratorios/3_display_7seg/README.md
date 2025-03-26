@@ -94,7 +94,7 @@ Pasos a seguir:
 1. Definir el bloque funcional del diseño:
 
     <p align="center">
-        <img src="/laboratorios/figs/lab03/Sseg.png" alt="alt text" width=300 >
+        <img src="/laboratorios/figs/lab03/Sseg.png" alt="alt text" width=350 >
     </p>
 
 
@@ -114,7 +114,7 @@ Realizar la integración  del módulo implementado en el ítem anterior con el s
 
 
 <p align="center">
-        <img src="/laboratorios/figs/lab03/all.png" alt="alt text" width=700 >
+        <img src="/laboratorios/figs/lab03/all.png" alt="alt text" width=750 >
     </p>
 
 
