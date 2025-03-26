@@ -94,7 +94,7 @@ Pasos a seguir:
 1. Definir el bloque funcional del diseño:
 
     <p align="center">
-        <img src="/laboratorios/figs/lab03/Sseg.png" alt="alt text" width=500 >
+        <img src="/laboratorios/figs/lab03/Sseg.png" alt="alt text" width=400 >
     </p>
 
 
