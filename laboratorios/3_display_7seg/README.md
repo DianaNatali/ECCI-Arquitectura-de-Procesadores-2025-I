@@ -114,7 +114,7 @@ Realizar la integración  del módulo implementado en el ítem anterior con el s
 
 
 <p align="center">
-        <img src="/laboratorios/figs/lab03/all.png" alt="alt text" width=500 >
+        <img src="/laboratorios/figs/lab03/all.png" alt="alt text" width=700 >
     </p>
 
 
@@ -136,7 +136,7 @@ Procedimiento detallado:
      $$\text{Magnitud positiva } =(∼S)+1$$
 
 3. Asignar signo negativo:
-   $$ \text{Resultado decimal } =−\text{Magnitud positiva}$$
+   $$\text{Resultado decimal } =−\text{Magnitud positiva}$$
 
 
 ## 4. Entregables

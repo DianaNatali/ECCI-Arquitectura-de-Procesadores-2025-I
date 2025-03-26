@@ -114,9 +114,9 @@ Cuando la entrada ```Sel = 0``` la salida de las compuertas ```XOR``` es simplem
 
 ## 3. Entregables
 
-1. Realice la descripción de hardware del sumador/restador.
+1. Descripción de hardware del sumador/restador.
 
-2. Explique el ítem anterior en su respectivo archivo ```README.md```.
+2. Documentación del ítem anterior en su respectivo archivo ```README.md```.
 
 3. Realice la respectiva simulaciones y muestre evidencias en su archivo ```README.md```.
 
