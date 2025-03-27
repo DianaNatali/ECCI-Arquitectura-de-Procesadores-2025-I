@@ -150,7 +150,7 @@ Esta metodología está diseñada para garantizar una experiencia de aprendizaje
     <td>6-7</td>
     <td>Sumador/restador de 4 bits  </td>
     <td><a href="/laboratorios/2_restador/README.md">lab02</a></td>
-    <td><a href="">Link </a></td>
+    <td><a href="https://classroom.github.com/a/RU0P2jDN">Link </a></td>
     <td>05 Abr/2025</td>
   </tr>
   <tr>
