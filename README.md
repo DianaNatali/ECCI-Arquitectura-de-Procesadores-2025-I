@@ -164,7 +164,7 @@ Esta metodología está diseñada para garantizar una experiencia de aprendizaje
     <td>9</td>
     <td>Multiplicador (ASM)</td>
     <td><a href="/laboratorios/4_multiplicador/README.md">lab04</a></td>
-    <td><a href="">Link </a></td>
+    <td><a href="https://classroom.github.com/a/ioxjCYGa">Link </a></td>
     <td>23 Abril/2025</td>
   </tr>
   <tr>

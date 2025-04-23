@@ -8,6 +8,5 @@ build/
 *.jou
 backup.jou
 
-/mult_tb.v
 
 src/
