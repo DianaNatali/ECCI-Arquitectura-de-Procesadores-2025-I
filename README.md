@@ -178,7 +178,7 @@ Esta metodología está diseñada para garantizar una experiencia de aprendizaje
     <td>11</td>
     <td>Banco de registros</td>
     <td><a href="">lab06</a></td>
-    <td><a href="">Link </a></td>
+    <td><a href="https://classroom.github.com/a/Or3thszX">Link </a></td>
     <td>26 Abril/2025</td>
   </tr>
   <tr>
