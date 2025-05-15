@@ -171,7 +171,7 @@ Esta metodología está diseñada para garantizar una experiencia de aprendizaje
     <td>10</td>
     <td>ALU</td>
     <td><a href="">lab05</a></td>
-    <td><a href="">Link </a></td>
+    <td><a href="https://classroom.github.com/a/8vvjtaRk">Link </a></td>
     <td>19 Abril/2025</td>
   </tr>
   <tr>
