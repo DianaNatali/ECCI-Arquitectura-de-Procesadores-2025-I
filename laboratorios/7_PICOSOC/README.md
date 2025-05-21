@@ -1,4 +1,4 @@
-# Lab 06: Primer paso con PicoSoC y PicoRV32 
+# Lab 07: Primer paso con PicoSoC y PicoRV32 
 
 Este laboratorio tiene como objetivo introducir el diseño de un sistema en chip (SoC) basado en la arquitectura RISC-V, empleando el núcleo PicoRV32 y un conjunto mínimo de periféricos. Se utilizará el entorno de desarrollo Intel Quartus Prime para sintetizar el diseño en una FPGA MAX 10, y se desarrollará un firmware embebido que primero generará una secuencia de LEDs, y posteriormente enviará un mensaje por UART.
 
