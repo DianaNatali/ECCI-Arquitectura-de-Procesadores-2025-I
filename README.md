@@ -183,31 +183,10 @@ Esta metodología está diseñada para garantizar una experiencia de aprendizaje
   </tr>
   <tr>
     <td>12</td>
-    <td>Unidad de control</td>
-    <td><a href="">lab07</a></td>
+    <td>PicoSoC</td>
+    <td><a href="/laboratorios/7_PICOSOC/README.md">lab07</a></td>
     <td><a href="">Link </a></td>
-    <td>03 Mayo/2025</td>
-  </tr>
-  <tr>
-    <td>13</td>
-    <td>Memoria de instrucciones y datos </td>
-    <td><a href="">lab08</a></td>
-    <td><a href="">Link </a></td>
-    <td>10 Mayo/2025</td>
-  </tr>
-  <tr>
-    <td>14</td>
-    <td>Pipeline básico y Entrada/Salida (UART o GPIOs) </td>
-    <td><a href="">lab09</a></td>
-    <td><a href="">Link </a></td>
-    <td>17 Mayo/2025</td>
-  </tr>
-  <tr>
-    <td>15</td>
-    <td>Implementación completa MIPS</td>
-    <td><a href="">lab10</a></td>
-    <td><a href="">Link </a></td>
-    <td>24 Mayo/2025</td>
+    <td>21 Mayo/2025</td>
   </tr>
 
 
